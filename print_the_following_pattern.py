@@ -1,5 +1,7 @@
 N=int(input())
-for row in range(N,0,-1):
-    for col in range(1,row+1):
-        print(col,end="")
+for i in range(1,N+1):
+    p=N
+    for j in range(1,N+1):
+        print(p,end=" ")
+        p=p-1
     print()
