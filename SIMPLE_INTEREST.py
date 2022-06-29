@@ -1,3 +1,3 @@
-p,t,r=map(int,input().split())
-f=p*t*r//100
-print(f)
+p,t,r=list(map(int,input().split()))
+simple_intrest=(p*t*r//100)
+print(simple_intrest)
