@@ -1,8 +1,7 @@
-osum=0
-n = int(input())
-x = list(map(int,input().split()))
-
-for i in range(n):
-    if x[i]%2==1:
-        osum+=x[i]
-print(osum)
+n=int(input())
+l=list(map(int,input().split()))
+sum=0
+for i in range(0,n):
+    if l[i]%2!=0:
+        sum=sum+l[i]
+print(sum)
