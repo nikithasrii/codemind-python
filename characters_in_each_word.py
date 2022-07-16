@@ -1,7 +1,7 @@
 s=input()
-x=s.split()
-for i in x:
+n=s.split()
+for i in n:
     c=0
     for j in i:
-        c=c+1
+        c+=1
     print(c,end=" ")
