@@ -1,4 +1,4 @@
-s=input()
-x=s.split()
-for i in x:
+n=input()
+s=n.split()
+for i in s:
     print(i[::-1],end=" ")
